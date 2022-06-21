@@ -93,6 +93,7 @@ def annealD(V,cost,vmin,vmax,Jmin,minvstep,maxITER,maxPERT,\
         xstep = vstep[0]
         t1=process_time()
         if iTER % outITER == 0:
+            # change the number of V[] depending on dimension (only for output)
             print(fmt %\
                       (iTER,nHIT,V[0],V[1],V[2],V[3],1000*np.sqrt(J),t1-t0))
     return ndim, V, iTER, path, J
