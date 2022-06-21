@@ -31,7 +31,7 @@ def inipol(iseed=10,nE=1000):
     return xE,yO
 ```
 
-The **cost** funtion defines the "cost funtion" (that depend on the problem) 
+The **cost** funtion defines the "<sub>cost funtion</sub>" (that depend on the problem) 
 ```Python
 def cost(V): 
     '''
