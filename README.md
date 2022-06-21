@@ -3,6 +3,8 @@
 Miranda and Mateus (2022), Water vapor tomography with optimized GNSS mapping functions,
 Geophysical Research Letters, submitted.**
 
+<img src="https://github.com/pjmateus/global_tropopause_model/blob/cb0211b1d1560d1cdad78d64feae5db4988f5d2b/logos.png" width="350">
+
 This algorithm starts from a first guess of the set of free parameters (input V),
 and computes the cost function for that solution. Then it tries maxPERT alternative 
 solutions contained in the multidimensional domain defined by [vmin, vmax], accepting, 
