@@ -15,6 +15,8 @@ concept of "simulated annealing" (e.g., Press et al, 1984, "Numerical Recipes").
 
 The testing.py script can be used to test the **annealD** algorithm. 
 
+The **inipol** funtion is used here to generate synthetic data (can be replaced by observational data).
+In this example we generate synthetic data for a fourth order polynomial equation.
 ```Python
 def inipol(iseed=10,nE=1000): 
     '''
@@ -28,5 +30,17 @@ def inipol(iseed=10,nE=1000):
     yO=a*xE**3+b*xE**2+c*xE+d
     return xE,yO
 ```
+
+The **cost** funtion defines the "cost funtion" (that depend on the problem) 
+```Python
+def cost(V): 
+    '''
+    Cost function (depends on the problem)
+    '''
+    a,b,c,d=V
+    custo=np.sum(((a*xE**3+b*xE**2+c*xE+d)-yO)**2)
+    return custo
+```
+
 
 
