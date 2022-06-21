@@ -31,7 +31,7 @@ def inipol(iseed=10,nE=1000):
     return xE,yO
 ```
 
-The **cost** funtion defines the "<sub>cost funtion</sub>" (that depend on the problem) 
+The **cost** funtion defines the "* *cost funtion* *</sub>" (that depend on the problem) 
 ```Python
 def cost(V): 
     '''
@@ -42,6 +42,7 @@ def cost(V):
     return custo
 ```
 
+Initialization of variables (see comments for their explanation).
 ```Python
 # For a new problem change inipol and cost, CHECK parameters
 xE,yO=inipol()                     # Define synthetic data OR read observations (yO) at locations (xE)
