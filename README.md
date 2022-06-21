@@ -3,7 +3,7 @@
 Miranda and Mateus (2022), Water vapor tomography with optimized GNSS mapping functions,
 Geophysical Research Letters, submitted.**
 
-<img src="[https://github.com/pjmateus/global_tropopause_model/blob/cb0211b1d1560d1cdad78d64feae5db4988f5d2b/logos.png](https://github.com/pjmateus/monte-carlo-annealing/blob/80329255f53d957f4e4ecd28d85fe946c23f048b/logos.png)" width="350">
+<img src="https://github.com/pjmateus/monte-carlo-annealing/blob/80329255f53d957f4e4ecd28d85fe946c23f048b/logos.png" width="350">
 
 This algorithm starts from a first guess of the set of free parameters (input V),
 and computes the cost function for that solution. Then it tries maxPERT alternative 
