@@ -1,7 +1,6 @@
 # monte-carlo-annealing
-**Monte-Carlo search for the minimum of the multidimensional "cost" function
-Miranda and Mateus (2022), Water vapor tomography with optimized GNSS mapping functions,
-Geophysical Research Letters, submitted.**
+**Monte-Carlo search for the minimum of the multidimensional "cost" function**
+Miranda, P. M. A., & Mateus, P. (2022). Improved GNSS water vapor tomography with modified mapping functions. Geophysical Research Letters, 49, e2022GL100140. https://doi.org/10.1029/2022GL100140
 
 <img src="https://github.com/pjmateus/monte-carlo-annealing/blob/80329255f53d957f4e4ecd28d85fe946c23f048b/logos.png" width="350">
 
